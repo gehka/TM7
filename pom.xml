@@ -8,6 +8,8 @@
     <artifactId>TM-Uebung1</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+
+    <!-- Java-Doc: http://commons.apache.org/proper/commons-math/javadocs/api-3.6.1/index.html -->
     <dependencies>
         <dependency>
             <groupId>org.apache.commons</groupId>
