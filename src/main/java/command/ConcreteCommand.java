@@ -1,3 +1,5 @@
+package command;
+
 public class ConcreteCommand implements Command {
 
     private Receiver receiver;
