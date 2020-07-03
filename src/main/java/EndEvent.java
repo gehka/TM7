@@ -7,6 +7,6 @@ public class EndEvent extends Event {
 
     @Override
     public void execute() {
-        super.getScheduler().abroad();
+        super.getScheduler().abort();
     }
 }

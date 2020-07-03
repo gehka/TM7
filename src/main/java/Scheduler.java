@@ -16,7 +16,7 @@ public class Scheduler {
         this.eventQueue.add(event);
     }
 
-    public void runSimulation() {
+    public void run() {
         while (!this.eventQueue.isEmpty()) {
             Event nextEvent = this.eventQueue.poll();
             this.timestamp = nextEvent.getEventTimestamp();
@@ -29,7 +29,7 @@ public class Scheduler {
         return timestamp;
     }
 
-    void abroad() {
+    void abort() {
         this.eventQueue.clear();
     }
 
